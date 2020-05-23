@@ -1,0 +1,8 @@
+gerber/
+svg/
+*-bak
+*.bak
+*-cache
+*.zip
+*.pdf
+*.step
