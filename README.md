@@ -13,6 +13,8 @@ Two 22mH inductors and a 15x5mm neodymium magnet need to be inserted into the ba
 The polarity of the inductors is not consistent from the factory, so some experimentation is required to get the best results.  
 Usually flipping one inductor or the magnet will result in much better vibration of the fork.
 
+The on-board BNC connector can be connected to a scope to observe the output waveform of the pickup.
+
 Check out the [YouTube video](https://www.youtube.com/watch?v=TgB_1jr5b_c) for more info on how it all works.
 
 Also check out [this repository](https://github.com/NuclearLighthouseStudios/Tuning-Fork-Clock-Firmware) for the firmware.
@@ -20,7 +22,7 @@ Also check out [this repository](https://github.com/NuclearLighthouseStudios/Tun
 | Reference                                         | Quantity | Value         | Description                                          |
 | :------------------------------------------------ | -------: | ------------: | :--------------------------------------------------- |
 | C1 C4 C5 C9 C102 C103 C104 C105 C106 C107         | 10       | 100n          | Generic ceramic capacitor                            |
-| C101                                              | 1        | 100µ          | Generic ceramic capacitor                            |
+| C101                                              | 1        | 100µ          | Electrolytic capacitor, 16V                          |
 | C2 C3                                             | 2        | 47n           | Generic ceramic capacitor                            |
 | D1                                                | 1        | 1N4148        | DO-35 Diode                                          |
 | D2 D3 D4                                          | 3        |               | 5mm LED                                              |
